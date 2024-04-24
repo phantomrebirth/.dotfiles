@@ -1,0 +1,77 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#000000",
+        "activityBar.foreground": "#cccccc",
+        "activityBarBadge.background": "#000000",
+        "activityBarBadge.foreground": "#ffffff",
+        "sideBar.background": "#000000",
+        "sideBar.foreground": "#cccccc",
+        "sideBarTitle.foreground": "#cccccc",
+        "sideBarSectionHeader.background": "#000000",
+        "sideBarSectionHeader.foreground": "#cccccc",
+        "list.activeSelectionBackground": "#000000",
+        "list.inactiveSelectionBackground": "#000000",
+        "list.hoverBackground": "#2c2c2c",
+        "list.focusBackground": "#3c3c3c",
+        "list.highlightForeground": "#ffffff",
+        "scrollbarSlider.activeBackground": "#c4c4c4",
+        "editor.background": "#000000",
+        "editor.foreground": "#d4d4d4",
+        // "editor.selectionBackground": "#000000",
+        "toolbar.activeBackground": "#000000",
+        "tab.activeBackground": "#000000",
+        "tab.activeForeground": "#ffffff",
+        "tab.inactiveBackground": "#000000",
+        "tab.inactiveForeground": "#cccccc",
+        "titleBar.activeBackground": "#000000",
+        "titleBar.activeForeground": "#cccccc",
+        "titleBar.inactiveBackground": "#000000",
+        "titleBar.inactiveForeground": "#cccccc",
+        "statusBar.background": "#000000", // Background of the status bar
+        "statusBar.foreground": "#cccccc", // Foreground color of the status bar
+        "statusBar.border": "#000000", // Border color of the status bar
+        "statusBar.noFolderBackground": "#000000", // Background of the status bar when no folder is opened
+        "statusBar.noFolderForeground": "#ffffff", // Foreground color of the status bar when no folder is opened
+        "statusBarItem.hoverBackground": "#2c2c2c", // Background color of status bar items on hover
+        "breadcrumb.background": "#000000", // Background color of the breadcrumb (path bar)
+        "breadcrumb.foreground": "#cccccc", // Text color of the breadcrumb
+        "breadcrumb.focusForeground": "#ffffff", // Text color of the focused breadcrumb item
+        "breadcrumb.activeSelectionForeground": "#ffffff", // Text color of the active breadcrumb item
+        "toolbar.hoverBackground": "#2c2c2c", // Background color of toolbar items on hover
+        "toolbar.hoverOutline": "#ffffff", // Outline color of toolbar items on hover
+        "toolbar.background": "#000000", // Background color of the toolbar
+        "toolbar.border": "#000000", // Border color of the toolbar
+        "menubar.selectionBackground": "#000000",
+        "menubar.selectionBorder": "#000000",
+        "menu.background": "#000000",
+        "actionBar.toggledBackground": "#000000",
+        "selection.background": "#000000",
+        "tab.activeBorder":"#ff00f2",
+        "tab.unfocusedActiveBackground": "#000000",
+        "tab.unfocusedInactiveBackground": "#000000",
+        "terminal.background": "#000000",
+        "badge.background": "#000000",
+        "list.dropBackground": "#000000",
+        "panel.background": "#000000",
+        "editorMarkerNavigationInfo.headerBackground": "#000000",
+        "scrollbarSlider.background": "#2b2b2b",
+        //"editor.inactiveSelectionBackground": "#000000",
+        "editorMarkerNavigation.background": "#000000",
+        "tab.unfocusedActiveBorder": "#000000",
+        "tab.activeModifiedBorder": "#000000",
+        "editorGroupHeader.noTabsBackground": "#000000",
+        "editor.snippetFinalTabstopHighlightBackground": "#000000",
+        "editor.snippetTabstopHighlightBackground": "#000000",
+        "[Dracula Soft]": {"tab.unfocusedInactiveBackground": "#000000"}
+    },
+    "workbench.colorTheme": "Dracula Soft",
+    "editor.language.brackets": [
+        
+    ],
+    "editor.language.colorizedBracketPairs": [
+    
+    ],
+    "workbench.preferredDarkColorTheme": "Dracula Soft",
+    "workbench.settings.applyToAllProfiles": [],
+    "workbench.chat.experimental.showWelcomeView": true
+}

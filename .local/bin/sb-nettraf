@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Run speedtest-cli and capture its output
+speedtest_output=$(speedtest-cli)
+
+# Extract download and upload speeds from the output
+download_speed=$(echo "$speedtest_output" | grep -oP 'Download: \K[\d.]+')
+upload_speed=$(echo "$speedtest_output" | grep -oP 'Upload: \K[\d.]+')
+
+# Convert speeds from Mbit/s to Kbps
+download_speed_kbps=$(awk "BEGIN {printf \"%.2f\", $download_speed * 125}")
+upload_speed_kbps=$(awk "BEGIN {printf \"%.2f\", $upload_speed * 125}")
+
+# Add style to the text
+text="<span foreground='#005500'>$download_speed_kbps</span> \t <span foreground='#800000'>$upload_speed_kbps</span> "
+
+# Print the styled text
+echo "{\"text\":\"$text\", \"tooltip\":\"Download speed provided by SpeedTest\",\"class\":\"$class\"}"
