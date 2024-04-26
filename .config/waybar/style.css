@@ -168,6 +168,10 @@ button {
     color: @red;
 }
 
+#battery.critical:not(.charging) {
+    color: #f00;
+}
+
 #memory {
     /* color: #7939ff; */
     color: #7de5e0;

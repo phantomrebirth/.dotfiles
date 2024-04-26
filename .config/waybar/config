@@ -69,11 +69,11 @@
         "states": {
             "good": 76,
             "warning": 21,
-            "critical": 18,
+            "critical": 16,
         },
         "format": "{capacity}% {icon}",
         "format-charging": "{capacity}% 󰂄",
-        "format-plugged": " ",
+        // "format-plugged": " ",
         "format-full": "{capacity}% 󰁹",
         "format-alt": "{icon} {time}",
         "format-icons": [ "󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹" ],
